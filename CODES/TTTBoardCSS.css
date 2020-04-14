@@ -1,0 +1,23 @@
+h1 {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+
+table {
+	margin: auto;
+}
+
+td {
+	width: 75px;
+	height: 75px;
+}
+
+.leftRight {
+	border-left: 3px dashed lightgrey;
+	border-right: 3px dashed lightgrey; 
+}
+
+.bottomTop {
+	border-bottom: 3px dashed lightgrey;
+	border-top: 3px dashed lightgrey;
+}

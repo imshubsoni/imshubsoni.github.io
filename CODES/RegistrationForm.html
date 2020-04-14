@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+	<header>
+		<h1>Registration Form</h1>
+	</header>
+
+	<section>
+		<!-- action = link for the site where Data need to be sent.. -->
+		<!-- method = way of handling HTTP request (GET/POST).. -->
+
+		<form action="" method="">
+			<label for="firstName">First Name: </label>
+			<input id="firstName" type="text" name="firstName" placeholder="your first name" required title="Please fill this!!">
+
+			<label for="lastName">Last Name: </label>
+			<input id="lastName" type="text" name="lastName" placeholder="your last name" required>
+
+			<br>
+
+			<label for="male">Male </label>
+			<input id="male" type="radio" name="gender" value="MALE">
+			<label for=female>Female </label>
+			<input id="female" type="radio" name="gender" value="FEMALE">
+			<label for="other">Other </label>
+			<input id="other" type="radio" name="gender" value="OTHER">
+
+			<br>
+
+			<label for="email">Email: </label>
+			<input id="email" type="email" name="email" placeholder="Your email address" required>
+
+			<label for="password">Password: </label>
+			<input id="password" type="password" name="password" placeholder="your password" pattern=".{5,10}" title="Require minimum 5 and maximum 10 characters!!" required>
+
+			<br>
+
+			<label>Birthday: </label>
+			<select name="month">
+				<option value="0" disabled selected>Month</option>
+				<option value="january">Jan</option>
+				<option value="feburary">Feb</option>
+				<option value="march">March</option>
+				<option value="april">April</option>
+				<option value="june">June</option>
+				<option value="july">July</option>
+				<option value="august">Aug</option>
+				<option value="september">Sept</option>
+				<option value="october">Oct</option>
+				<option value="november">Nov</option>
+				<option value="december">Dec</option>
+			</select>
+			<select name="day">
+				<option value="0" disabled selected>Day</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			</select>
+			<select name="year">
+				<option value="0" disabled selected>Year</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+				<option value="2018">2018</option>
+				<option value="2019">2019</option>
+				<option value="2020">2020</option>
+				<option value="2021">2021</option>
+				<option value="2022">2022</option>
+				<option value="2023">2023</option>
+				<option value="2024">2024</option>
+				<option value="2025">2025</option>
+				<option value="2026">2026</option>
+			</select>
+
+			<br>
+
+			<label for="termsAndConditions">I agree to the terms and conditions </label>
+			<input id="termsAndConditions" type="checkbox" name="checkbox" value="Clicked" required>
+
+			<br>
+
+			<button>Submit</button>
+		</form>
+	</section>
+</body>
+</html>
